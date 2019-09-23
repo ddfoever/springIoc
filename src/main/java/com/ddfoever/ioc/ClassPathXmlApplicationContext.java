@@ -55,7 +55,6 @@ public class ClassPathXmlApplicationContext implements  ApplicatonContext {
                         value = valueStr;
                     }
                    method.invoke(object,value);
-                    System.out.println(method);
                 }
                iocMap.put(id,object);
             }
